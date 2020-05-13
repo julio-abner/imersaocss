@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:  monospace ;
+    font-size: 12px;
+}
+
+/*se a tela tiver pelo menos 400px vai carregar esse estilos*/
+@media (min-width: 400px){
+    body{
+        font-size: 14px;
+    }
+}
+/* Breakpoint */
+@media (min-width: 600px){
+    body{
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 800px){
+    body{
+        font-size: 22px;
+    }
+}
+
+@media (min-width: 1000px){
+    body{
+        font-size: 24px;
+    }
+}
+
+header{
+    background-color: #117372;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+  
+.menu{
+    background-color: white;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+}
+
+.menu ul{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.menu li{
+    list-style: none;
+}
+
+.menu a{
+    display: block;
+    padding: 10px 20px;
+}
+
+a{
+    color: #117372;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.site-title, .site-subtitle{
+    color: rgb(209, 230, 219);
+    text-align: center;
+}
+
+.site-title{
+    font-size: 4em;
+}
+
+.site-subtitle{
+    font-style: italic;
+}
+
+.portifolio{
+    background-color: #165b5b;
+    color:rgb(209, 230, 219);
+    padding:10px;
+}
+
+.portifolio-ex{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    padding: 40px;
+}
+
+p{
+    max-width: 800px;
+    text-align: right;
+    padding: 30px;
+}
+
+.particao{
+    background-color: #174444;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 40px;
+    box-shadow: 0px 0px 1em #0d0f0f ;
+    -webkit-box-shadow: 0px 0px 1em #0d0f0f;
+    -moz-box-shadow: 0px 0px 1em #0d0f0f;
+}
+
+.particao2{
+    background-color: #174444;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px; 
+    margin: 40px;
+    box-shadow: 0px 0px 1em #0d0f0f ;
+    -webkit-box-shadow: 0px 0px 1em #0d0f0f;
+    -moz-box-shadow: 0px 0px 1em #0d0f0f;
+}
+
+.particao3{
+    background-color: #174444;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 40px; 
+    box-shadow: 0px 0px 1em #0d0f0f ;
+    -webkit-box-shadow: 0px 0px 1em #0d0f0f;
+    -moz-box-shadow: 0px 0px 1em #0d0f0f;
+}
+
+.particao4{
+    background-color: #174444;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px; 
+    margin: 40px;
+    box-shadow: 0px 0px 1em #0d0f0f ;
+-webkit-box-shadow: 0px 0px 1em #0d0f0f;
+-moz-box-shadow: 0px 0px 1em #0d0f0f;
+}
+
+.img-portifolio{
+    height: 60vh;
+    width: 40vw;
+}
+
